@@ -1,0 +1,6 @@
+---
+- name: clone a public repository
+  git:
+    repo=https://github.com/gowri3357/firstproject.git
+    dest=/etc/ansible/clone_path
+

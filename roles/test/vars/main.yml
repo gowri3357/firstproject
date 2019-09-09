@@ -1,0 +1,5 @@
+---
+# vars file for /etc/ansible/roles/test
+vars_files:
+    - vault1.yml
+

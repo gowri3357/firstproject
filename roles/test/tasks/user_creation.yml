@@ -1,0 +1,9 @@
+---
+- name: Creating the user and providing the sudo access
+  user:
+    name: maddy
+    state: present
+    group: root
+    password: "{{ user_password | password_hash('sha512') }}"
+    update_password: on_create
+

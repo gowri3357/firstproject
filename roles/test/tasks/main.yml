@@ -1,0 +1,5 @@
+---
+# tasks file for /etc/ansible/roles/test
+- import_tasks: cloning.yml
+- import_tasks: download_install.yml
+- import_tasks: user_creation.yml

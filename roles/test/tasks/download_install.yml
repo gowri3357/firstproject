@@ -1,0 +1,6 @@
+---
+- name: downloading nodejs and installing
+  yum:
+    name: nodejs
+    state: latest
+
